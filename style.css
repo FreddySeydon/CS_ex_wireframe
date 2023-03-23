@@ -1,0 +1,169 @@
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 6rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #eaeaea;
+}
+
+nav img {
+    width: 10rem;
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2rem;
+    background-color: white;
+    width: 10rem;
+    height: 5rem;
+    /* text-align: center; */
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    /* padding: 2rem 3.7rem;
+    margin: -2rem -3.7rem; */
+}
+
+nav li:hover a {
+    color:white;
+}
+
+nav ul li:hover {
+    background-color: #c4c4c4;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c4c4c4;
+    min-height: 30vh;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    box-sizing: border-box;
+}
+
+section img {
+    height: auto;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+section p {
+    text-align: center;
+}
+
+#duck {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.duckText {
+    text-align: center;
+}
+
+.duckText button {
+    width: 10rem;
+    height: 3rem;
+}
+
+#duck img {
+    width: 18rem;
+    height: auto;
+}
+
+#emergency {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+
+#emergency h1 {
+    margin-top: 0.5rem;
+}
+
+#emergency button {
+    min-height: 8rem;
+    min-width: 10rem;
+    margin: 0.5rem;
+}
+
+.emergencyButtons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 40rem;
+    padding-bottom: 1rem;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    flex-basis: 30rem;
+}
+
+#contact form textarea{
+    height: 7rem;
+    flex-grow: 2;
+}
+
+#contact form button {
+    min-width: 10rem;
+    height: 3rem;
+    align-self: center;
+    flex-grow: 2;
+}
+
+#contact form h1 {
+    margin-bottom: 0.3rem;
+    
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #c4c4c4;
+    margin:0;
+    padding:0;
+}
+
+.credits {
+    text-align: center;
+    font-size: 0.8rem;
+    padding-bottom: 1rem;
+}
+
