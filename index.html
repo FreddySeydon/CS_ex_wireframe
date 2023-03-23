@@ -7,12 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Wireframe Exercise</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed">
 </head>
 
 <body>
     <header>
         <nav>
-            <img src="http://via.placeholder.com/200x100" alt="Company Logo">
+            <img src="img/duck-logo.png" alt="Company Logo">
             <div class="navElements">
                 <ul>
                     <li><a href="#home">Home</a></li>
@@ -33,9 +35,9 @@
         <section id="duck">
             <div class="duckText">
                 <p>Text about this page > what is this for?</p>
-                <button>Button</button>
+                <button onclick="window.location.href='https://renja.cc'">Button</button>
             </div>
-            <img src="http://via.placeholder.com/300x300" alt="placeholder Image">
+            <img src="img/duck-headshot.png" alt="placeholder Image">
         </section>
         <section id="emergency">
             <h1>In case of Emergency click on:</h1>
@@ -51,15 +53,15 @@
         <section id="contact">
             <form action="">
                 <h1>Contact us</h1>
-                <input type="text" name="subject" placeholder="What's this about?" id="">
-                <textarea name="message" id="message" placeholder="What's your message?" cols="30" rows="10"></textarea>
+                <input class="formField" type="text" name="subject" placeholder="What's this about?" id="">
+                <textarea class="formField" name="message" id="message" placeholder="What's your message?" cols="30" rows="10"></textarea>
                 <button type="submit">Submit</button>
             </form>
         </section>
         <footer>
             <div class="credits">
-                <p>Proudly created by name</p>
-                <img src="http://via.placeholder.com/50x50" alt="Face of Creator">
+                <p>Proudly created by That One Duck</p>
+                <img src="img/duck-credits.png" alt="That One Duck">
             </div>
         </footer>
     </main>
